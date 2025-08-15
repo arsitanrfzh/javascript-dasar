@@ -1,0 +1,25 @@
+[
+  {
+    "judulFilm": "Agak Laen",
+    "tahunRilis": "2024",
+    "genreFilm": [
+      "Horror",
+      "Komedi"
+    ]
+  },
+  {
+    "judulFilm": "Habibie & Ainun",
+    "tahunRilis": "2012",
+    "genreFilm": [
+      "Drama",
+      "Romantis"
+    ]
+  },
+  {
+    "judulFilm": "Dilan 1990",
+    "tahunRilis": "2018",
+    "genreFilm": [
+      "Romantis"
+    ]
+  }
+]

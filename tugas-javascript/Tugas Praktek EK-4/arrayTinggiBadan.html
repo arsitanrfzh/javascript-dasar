@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Tinggi Badan Siswa</title>
+</head>
+<body>
+    <h1>Data Tinggi Badan yang Diurutkan</h1>
+    
+    <div id="output"></div>
+
+<script>
+  // Array asosiatif tinggi badan
+  const tinggiBadan = {
+    "Rose": 178,
+    "Magnolia": 153,
+    "Daisy": 165,
+    "Jasmine": 161,
+    "Violet": 159
+};
+
+  // Mengubah object menjadi array of keys (nama)
+  const namaUrut = Object.keys(tinggiBadan);
+
+  // Mengurutkan array nama secara alfabetis
+  namaUrut.sort();
+
+  // Menampilkan data menggunakan forEach
+  let output = "";
+  namaUrut.forEach(function (nama) {
+    output = output + nama + " : " + tinggiBadan[nama] + " cm" + "<br>";
+  });
+
+  // Menampilkan halaman menggunakan inner HTML
+  document.getElementById("output").innerHTML = output;
+</script>
+    </ul>
+</body>
+</html>
